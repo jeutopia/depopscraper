@@ -22,7 +22,6 @@ print(str(data['username'])) #username
 print(str(data['bio'])) #bio
 print(str(data['verified'])) #verified
 print(str(data['website'])) #website
-filepath = None
 if len(data['picture']) > 0:
     photo = data['picture']['450'][:-6] + "U0.jpg"
 else:

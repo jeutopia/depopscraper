@@ -28,5 +28,6 @@ for item in data['products']:
         sold = "available"
     brandId = str(item['brandId'])
     categoryId = str(item['categoryId'])
-    print(desc + "\n" + price + "\n" + shipping + "\n" + size + "\n" + sold + "\n" + brandId + "\n" + categoryId)
-    print("\n")
+    if categoryId == categoryId:
+        print(desc + "\n" + price + "\n" + shipping + "\n" + size + "\n" + sold + "\n" + brandId + "\n" + categoryId)
+        print("\n")
